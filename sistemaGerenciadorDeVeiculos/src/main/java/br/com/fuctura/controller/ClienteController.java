@@ -18,7 +18,7 @@ public class ClienteController {
 
     public void inserirCliente(Cliente cliente) {
         if (validarCliente(cliente)) {
-            clienteRepository.salvar(cliente); // Utiliza o método do repositório para inserir cliente
+            clienteRepository.salvar(cliente); 
         } else {
             System.out.println("Cliente inválido. Não foi possível inserir.");
         }

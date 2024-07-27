@@ -1,5 +1,10 @@
 package br.com.fuctura.controller;
 
+import java.util.List;
+
+import br.com.fuctura.model.entidades.Endereco;
+import br.com.fuctura.repository.impl.EnderecoRepository;
+
 public class EnderecoController {
 
     private final EnderecoRepository enderecoRepository;
@@ -25,6 +30,6 @@ public class EnderecoController {
     }
 
     public List<Endereco> listar() {
-        return enderecoRepository.listar();
+        return enderecoRepository.Listar;
     }
 }
